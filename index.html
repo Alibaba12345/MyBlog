@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+     <title></title>
+     <meta charset="UTF -8">
+	 <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+
+</head>
+
+<body>
+    <div id="wrapper">
+	      <header id="logo">
+		  </header>
+   <!-- <div Class="Container">-->
+	<div Class="Header"></div>
+	<div id="social">
+	     <ul>
+		     <li><a href="http://www.twitter.com" target="_blank"><img src="images/twitter.png" height="100px" width="100px" /></a></li>
+			 <li><a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png" height="100px" width="100px" /></a></li>
+			 <li><a href="http://www.you-tube.com" target="_blank"><img src="images/you-tube.png" height="100px" width="100px"/></a></li>
+		 </ul>
+		 </div>
+	    <nav id="topnav">
+		     <ul>
+			      <li><a href="index.html">Home</a></li>
+				  <li><a href="services.html">Services</a></li>
+				  <li><a href="contact.html">Contact</a></li>
+				  <li><a href="about.html">About Us</a></li>
+			 </ul>
+		</nav>
+		<br>
+		<section id="content">
+		     <article>
+			       <hgroup>
+				        <h1>This is My Blog</h1>
+						<h2>Athour Dat</h2><br>
+			
+				   </hgroup>
+			       The convolution filters implemented in the FlashPhotoApp use an ap- plyConvolution(float Kernel[3][3]) method which has been implemented in the PixelBuffer class together with a Kernel corresponding to the spe- cific filter to produce the desired effect. One of the critical design deci- sions here were whether to apply the convolution using a 3x3 kernel or a 5x5 kernel.<br>
+			       We chose to design it using a 3x3 kernel as I had worked out the kernels for the different filters in case of a 3x3 kernel and a 5x5 kernel. We tried out with both size of kernels and though the effect produced by the filter was almost the same, the 5x5 kernel implementation, required significantly more computational power than the 3x3 kernel over a period of time.<br>
+			       We had a lot of alternatives available while implementing the apply- Convolution() method in the choice of the size of the kernel, but we have figured out from the example comparison between the 3x3 kernel and the 5x5 kernel that the 3x3 kernel is the most efficient as it provides the opportunity for a fast implementation without significant difference in the quality of the effect produced by the filter.<br>
+			       In the design of the convolution filters, we had to make another crit- ical decision in the design of the kernel itself, the kernels when changed slightly may produce a very different effect on the image. For example, for the sharpen filter we first saw the effect of applying the left, right, top and bottom sobel filter kernels. Then we tried a lot of different linear combinations of these four kernels of the sobel filters to find an appro- priate kernel for the edge-detect filter. Then we added the kernel of the identity filter to the kernel of the edge-detect filter to get an aproximately correct kernel for the sharpen filter.
+			 </article>
+		<br><br>
+		</section>
+		
+		<aside id="side">
+		     <header><h1>FlashPhoto</h1></header><br>
+			 <a href="http://www.ebay.com" target="_blank"><img src="images/C++.png" width="150" height="100"></a>
+			 
+		</aside>
+		
+	<!--	<aside id="tech">
+		   <div id="techmovie">
+			 <iframe width="90" height="80" src="https://www.youtube.com/embed/6yWzKvQXsYM" frameborder="0" allowfullscreen></iframe>
+			 </div> -->
+		</aside>
+		
+		<aside id="side_two">
+		Hello 3081W!<br><br>
+		Enjoy with my Iteration2
+		
+		
+		
+		</aside>
+		
+		<div id="movie">
+		<iframe width="520" height="300" src="https://www.youtube.com/embed/Rub-JsjMhWY" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<br><br>
+		<img src="images/C++.jpeg" width="540" height="300">
+		<br><br>Images represent model technology today
+		<footer>
+		    
+			<p class="footer-text">Copyright 2016 VA technique </p>
+		</footer>
+	</div>
+   <!-- </div>-->
+
+</body>
+
+
+
+</html>
